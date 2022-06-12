@@ -1143,7 +1143,9 @@ This is visible
 
 #### Scripts
 ##### Script Name
-- Fixed script''', 'marketplacev2',
+<~XSIAM>
+- Fixed script
+</~XSIAM>''', 'marketplacev2',
             "#### Integrations\n##### Integration Display Name\n- Fixed an issue\n\n#### Scripts\n##### Script Name\n\
 - Fixed script"),
         ('''

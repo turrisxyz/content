@@ -1812,7 +1812,7 @@ class Pack(object):
             else:
                 logging.info(f"Removing only the tags {start_tag}-{end_tag} since the RN entry is relevant to "
                              f"marketplace {upload_marketplace}")
-                return release_notes.replace(f"{start_tag}\n", '').replace(f"{end_tag}\n", '')
+                return release_notes.replace(f"{start_tag}\n", '').replace(f"{end_tag}", '')
 
         # Filters out for XSIAM tags
         release_notes = remove_tags_section_from_rn(release_notes, XSIAM_MP, marketplace)
